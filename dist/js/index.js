@@ -255,7 +255,8 @@ $(function(){
 			if(scrollTop>= $(this).offset().top - $(this).outerHeight()/2){
 				var index = $(this).index();
 //				console.log(index);
-				$("#daohang").find("li").eq(index-3).css({"background":"pink"}).siblings().css({"background":"#cecece"});
+				/*$("#daohang").find("li").eq(index-3).css({"background":"pink"}).siblings().css({"background":"#cecece"});*/
+				$("#daohang").find("li").eq(index-3).css({"border-bottom":"1px solid #B40707","width":"120px"}).siblings().css({"border-bottom":"none","width":"100px"});
 				}	
 			})	
 		}	
@@ -264,7 +265,9 @@ $(function(){
 		flag = false;
 		var index = $(this).index();
 		var Height = $(".cebian").eq(index).offset().top;
-		$(this).css({"background":"pink"}).siblings().css({"background":"#cecece"});
+		/*$(this).css({"background":"pink"}).siblings().css({"background":"#cecece"});*/
+		$(this).css({"border-bottom":"1px solid #B40707","width":"120px"}).siblings().css({"border-bottom":"none","width":"100px"});
+		
 		$("body,html").stop().animate({"scrollTop":Height},500,function(){
 			flag = true;
 		});

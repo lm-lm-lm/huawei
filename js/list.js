@@ -25,7 +25,7 @@ $(function(){
 				str+=`<dl><dt><img src=${data[i].picurl}></dt>
 				<dd><span>${data[i].name}</span><span>${data[i].price}</span></dd>
 				<dd class="anniu">
-					<a class="add" gid='${data[i].id}' href="cart.html">选购</a>
+					<a class="add" gid='${data[i].id}'>选购</a>
 					<a href="product.html?id=${data[i].id}">详情</a>
 				</dd>
 				</dl>`

@@ -214,6 +214,10 @@ header{
         .allpone{
             position: relative;
             margin-left: 10px;
+            .special4{
+                color: #CB242B;
+                font-weight: 980;
+            }
             .phonebox{
                 display: none;
                 position: absolute;
@@ -230,6 +234,7 @@ header{
                     height: 43px;
                     a{
                        line-height: 43px; 
+                       
                     }
                 }
                 .phonelist{
@@ -1048,8 +1053,11 @@ section:nth-of-type(5){
     right: 0;
     display: none;
     li{
+        width: 100px;
+        text-align: center;
+        top: 0;left: 0;
         height: 40px;
-        border-bottom: 1px solid #B40707;
+//     border-bottom: 1px solid #B40707;
         line-height: 40px;
         a{
             color: #000;

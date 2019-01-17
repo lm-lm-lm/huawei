@@ -76,10 +76,11 @@ $(function(){
 		}
 		$("#number").val(val2);
 	})
-	$("#cart1").click(function(){
+	/*$("#cart1").click(function(){
 		location.href = "cart.html"
-	})
+	})*/
 })
+//显示列表页选中的id数据
 $(function(){
 	var id=location.search.split("=")[1];
 	$.ajax({
@@ -90,11 +91,35 @@ $(function(){
 		},
 		async:true,
 		success:function(data){
-//			console.log(data)
+			console.log(data)
 			var str1 = `<img src=${data.picurl}>`;
+			var str2 = `<a  id="cart1" data-id=${data.id}>加入购物车</a>
+			<a  id="cart2">立即下单</a>`
+			$(".Button").html(str2)
 			$("#midArea").html(str1);
 			$("#bigArea").html(str1);
 			$(".pro-message").html(data.name)
 		}
 	});
+})
+//加入购物车
+$(function(){
+	$(".button").on("click","#cart1",function(){
+//		console.log("aa")
+		var gid = $("#cart1").attr("data-id");
+		console.log(gid);
+		$.ajax({
+			type:"get",
+			url:"http://47.104.244.134:8080/cartsave.do",
+			data:{
+				"gid":gid,
+				"token":1693
+			},
+			async:true,
+			success:function(data){
+				console.log(data)
+				location.href = "cart.html"
+			}
+		});
+	})
 })
