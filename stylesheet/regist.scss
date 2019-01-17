@@ -1,0 +1,268 @@
+body,html,ul,li,h1,h2,h3,dl,dt,dd,p{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+}
+a{
+    text-decoration: none;
+    
+}
+header{
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    background: #333333;
+    border-bottom:1px solid #878787;
+    div{
+        width: 960px;
+        height: 43px;
+        margin:0 auto;
+    }
+    article{
+        width: 214px;
+        height: 42px;
+        float: left;
+    }
+    .img2{
+        display: block;
+        float: left;
+        margin-top: 10px;
+    }
+    h1{
+        width: 160px;
+        padding-left: 20px;
+        height: 42px;
+        display: block;
+        font-size: 22px;
+        float: left;
+        line-height: 42px;
+        a{
+           color: #fefefe; 
+        }
+        
+    }
+}
+section{
+    width: 100%;
+    height: 1135px;
+    background: #f2f2f2;
+    padding-top: 38px;
+    .nav{
+        width: 960px;
+        height: 45px;
+        margin: 0 auto;
+        .nav-l,.nav-r{
+            display: block;
+            width: 151px;
+            height: 36px;
+            background: #cccccc;
+            float: left;
+            font-size: 17px;
+            color: #fff;
+            text-align: center;
+            line-height: 30px;
+            padding-left: 32px;
+            padding-top: 9px;
+            &:hover{
+                background: #b40707;
+                cursor: pointer;
+            }
+            img{
+                float: left;
+            }
+        }
+        .nav-l{
+            background: #b40707;
+        }
+        .nav-r{
+            margin-left: 14px;
+            line-height: 25px;
+        }
+        span{
+            display: block;
+            width: 155px;
+            height: 45px;
+            float: right;
+            line-height: 45px;
+            a{
+                color: #007dff;
+                font-size: 17px;
+            }
+        }
+    }
+    .body{
+        width: 960px;
+        height: 616px;
+        padding-top: 50px;
+        background: #fff;
+        margin: 0 auto;
+        overflow: hidden;
+        div{
+            width: 527px;
+            height: 55px;
+            background: #f9fafe;
+            border: 1px solid #d9d9d9;
+           
+        }
+        .adress{
+            margin: 0 auto;
+            border-radius: 20px;
+            .txt1{
+                margin-left: 20px;
+                width: 132px;
+                height: 53px;
+                border: 0;
+                border-right: 1px solid #d9d9d9;
+                line-height: 53px;
+                float: left;
+                font-size: 18px;
+            }
+            select{
+                background: #f9fafe;
+                width: 350px;
+                height: 53px;
+                padding-left: 20px;
+                float: left;
+                border: 0;
+                font-size: 18px;
+            }    
+        }
+        .num{
+            margin: 0 auto;
+            margin-top: 10px;
+            border-radius: 20px;
+            span{
+                background: #f9fafe;
+                margin-left: 20px;
+                width: 132px;
+                height: 53px;
+                border-right: 1px solid #d9d9d9;
+                line-height: 53px;
+                float: left;
+                font-size: 19px;
+            }
+            input{
+                border: 0;
+                background: #f9fafe;
+                width: 340px;
+                height: 53px;
+                padding-left: 20px;
+                float: left;
+                border: 0;
+                font-size: 18px;
+            }
+        }
+        .email{
+            margin: 0 auto;
+            margin-top: 12px;
+            border-radius: 20px;
+            .txt5{
+                margin-left: 20px;
+                width: 132px;
+                height: 53px;
+                border: 0;
+                border-right: 1px solid #d9d9d9;
+                line-height: 53px;
+                float: left;
+                font-size: 18px;
+            }
+            input{
+                border: 0;
+                background: #f9fafe;
+                width: 190px;
+                height: 53px;
+                padding-left: 20px;
+                float: left;
+                border: 0;
+                font-size: 18px;
+            }
+        }
+        .part2{
+            width: 517px;
+            height: 120px;
+            background: #fff;
+            padding-left: 109px;
+            input{
+                width: 300px;
+                height: 56px;
+                background: 0;
+                border: 0;
+                border-bottom: 1px solid #e3e3e3;
+                font-size: 19px;
+                margin-left: 113px;
+            }
+            
+        }
+        .password{
+            margin: 0 auto;
+            margin-top: 38px;
+            border-radius: 20px;
+            .txt3{
+                margin-left: 20px;
+                width: 132px;
+                height: 53px;
+                border: 0;
+                border-right: 1px solid #d9d9d9;
+                line-height: 53px;
+                float: left;
+                font-size: 18px;
+            }
+            input{
+                border: 0;
+                background: #f9fafe;
+                width: 190px;
+                height: 53px;
+                padding-left: 20px;
+                float: left;
+                border: 0;
+                font-size: 18px;
+            }
+        }
+        .correct{
+            margin: 0 auto;
+            margin-top: 10px;
+            border-radius: 20px;
+            .txt4{
+                margin-left: 20px;
+                width: 132px;
+                height: 53px;
+                border: 0;
+                border-right: 1px solid #d9d9d9;
+                line-height: 53px;
+                float: left;
+                font-size: 18px;
+            }
+            input{
+                border: 0;
+                background: #f9fafe;
+                width: 190px;
+                height: 53px;
+                padding-left: 20px;
+                float: left;
+                border: 0;
+                font-size: 18px;
+            }
+        }
+        .regist{
+            width: 250px;
+            height: 50px;
+            background: #b40707;
+            border-radius: 20px;
+            line-height: 50px;
+            color: #fff;
+            font-size: 13px;
+            text-align: center;
+            margin-top: 38px;
+            margin-left: 350px;
+            cursor: pointer;
+        }
+    }
+}

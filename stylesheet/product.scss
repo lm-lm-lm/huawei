@@ -1,0 +1,117 @@
+body{
+     height: 1000px;
+}
+img{
+    display: block;
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+#zoomArea{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    border: 1px solid #CECECE;
+    float: left;
+    margin-left: 150px;
+    margin-top: 50px;
+    display: block;
+}
+#midArea{
+    width: 400px;
+    height: 400px;
+}
+#midArea img{
+    width: 400px;
+    height: 400px;
+}
+#zoom{
+    display: none;
+    position: absolute;
+    left:0;
+    top: 0;
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    opacity: .5;
+    filter:alpha(opacity=50);
+    cursor: move;
+}
+#bigArea{
+    display: none;
+    position: absolute;
+    left: 400px;
+    top: -1px;
+    width: 400px;
+    height: 400px;
+    border: 1px solid #CECECE;
+    overflow: hidden;
+}
+#bigArea img{
+    position: absolute;
+    width: 800px;
+    height: 800px;
+}
+#smallArea img{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;               
+}
+
+.pro-message{
+    
+    width:900px;
+    height: 50px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.button{
+   
+    width: 800px;
+    height: 200px;
+    float: left;
+    margin-top: 200px;
+     .jiajian{
+        width: 60px;
+        height:60px;
+        float: left;
+        margin-left: 60px;
+       button{
+            width: 20px;
+            height: 21px;
+            display: block;
+            float: left;
+            text-align: center;
+        }
+        button:nth-of-type(2){
+//          margin-left: 10px;
+        }
+    }
+    #cart1{
+        width:200px;
+        height: 50px;
+        display: block;
+        float:left;
+        color: #000;
+        text-align: center;
+        line-height: 50px;
+        margin-left: 50px;
+        outline: none;
+            background: orange;
+        }
+    #cart2{
+        width:200px;
+        height: 50px;
+        display: block;
+        float:left;
+        color: #000;
+        text-align: center;
+        line-height: 50px;
+        margin-left: 50px;
+        outline: none;
+        background: #A51B1B;
+    }
+}

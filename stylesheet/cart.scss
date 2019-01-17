@@ -1,0 +1,79 @@
+section{
+    width: 1200px;
+    height: 500px;
+    margin: 100px auto;
+    .probox{
+        width: 1200px;
+        height: 3500px;
+        border: 1px solid #cecece;
+        padding-left: 20px;
+        input{
+            width: 20px;
+            height: 20px;  
+            margin-top: 50px; 
+            margin-left: 20px;
+            float: left;  
+        } 
+        .prolist{
+            div{
+                margin-top: 10px;
+                width: 1000px;
+                height: 150px;
+                float: left;
+                border: 1px solid #cecece;
+            img{
+                width: 100px;
+                height: 120px;
+                float: left;
+                margin-left: 50px;
+            }
+            p:nth-of-type(1){
+                width: 450px;
+                height: 100px;
+                float: left;
+                margin-left: 50px;
+                color: #267EFF;
+            }
+            p:nth-of-type(2){
+                width: 100px;
+                height: 35px;
+                float: left;
+                margin-left: 20px;
+                color: #A51B1B;
+            } 
+        }
+        .jiajian{
+            width: 60px;
+            height:42px;
+            float:left;
+            padding-top: 0px;
+            margin-left: 20px;
+            #number22{
+                width: 36px;
+                height: 36px;
+                float: left;
+                line-height: 20px;
+                margin-top: 0;
+                margin-left: 0;
+            }
+            button{
+                width: 20px;
+                height: 21px;
+                display: block;
+                float: left;
+                text-align: center;
+            }
+        }
+        
+     } 
+}
+    
+//      #delet{
+//          width: 100px;
+//          height: 50px;
+//          float: right;
+//          margin-right: 50px;
+//          margin-top: 20px;
+//      }
+   
+}
